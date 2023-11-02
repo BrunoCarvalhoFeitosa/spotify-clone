@@ -1,6 +1,8 @@
 "use client"
 import Image from "next/image"
 import useLoadImage from "@/hooks/useLoadImage"
+import useGetSongById from "@/hooks/useGetSongById"
+import usePlayer from "@/hooks/usePlayer"
 import PlayButton from "@/components/PlayButton"
 import { Song } from "@/types"
 
@@ -11,6 +13,8 @@ interface SongItemProps {
 
 const SongItem: React.FC<SongItemProps> = ({ data, onClick }) => {
     const imagePath = useLoadImage(data)
+    const player = usePlayer()
+    const { song } = useGetSongById(player.activeId)
 
     return (
         <div
@@ -34,7 +38,7 @@ const SongItem: React.FC<SongItemProps> = ({ data, onClick }) => {
                 </p>
             </div>
             <div className="absolute bottom-24 right-5">
-                <PlayButton />
+                <PlayButton playingSongId={song?.id} songId={data.id} />
             </div>
         </div>
     )

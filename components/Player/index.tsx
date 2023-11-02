@@ -15,11 +15,7 @@ const Player = () => {
 
     return (
         <div className="fixed bottom-0 w-full h-[80px] py-2 px-4 bg-black">
-           <PlayerContent
-                key={songUrl}
-                song={song}
-                songUrl={songUrl}
-           />
+           <PlayerContent key={songUrl} song={song} songUrl={songUrl} />
         </div>
     )
 }
