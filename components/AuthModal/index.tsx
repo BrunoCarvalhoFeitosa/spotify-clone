@@ -44,26 +44,26 @@ const AuthModal = () => {
                             email_label: "E-mail",
                             email_input_placeholder: "nome@dominio.com",
                             password_label: "Senha",
-                            password_input_placeholder: "Senha",
+                            password_input_placeholder: "Insira sua senha",
                             button_label: "Entrar",
                             loading_button_label: "Autenticando...",
-                            social_provider_text: "Entrar",
+                            social_provider_text: "Entrar com GitHub",
                             link_text: "Já tem uma conta? Faça login aqui"
                         },
                         sign_up: {
                             email_label: "E-mail",
                             email_input_placeholder: "nome@dominio.com",
                             password_label: "Senha",
-                            password_input_placeholder: "Senha",
+                            password_input_placeholder: "Insira sua senha",
                             button_label: "Cadastrar-me",
                             loading_button_label: "Cadastrando...",
                             social_provider_text: `Cadastrar`,
                             link_text: "Não tem uma conta? Cadastre-se aqui"
                         },
                         forgotten_password: {
-                            email_label: "Endereço de e-mail",
+                            email_label: "E-mail",
                             email_input_placeholder: "nome@dominio.com",
-                            password_label: "Sua senha",
+                            password_label: "Senha",
                             button_label: "Enviar instruções de redefinição de senha",
                             loading_button_label: "Enviando instruções...",
                             link_text: "Esqueceu sua senha?",
@@ -71,7 +71,7 @@ const AuthModal = () => {
                         },
                         update_password: {
                             password_label: "Nova senha",
-                            password_input_placeholder: "Sua nova senha",
+                            password_input_placeholder: "Insira sua nova senha",
                             button_label: "Atualizar senha",
                             loading_button_label: "Atualizando senha...",
                             confirmation_text: "Sua senha foi alterada com sucesso"

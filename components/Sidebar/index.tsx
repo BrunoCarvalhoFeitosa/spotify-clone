@@ -31,7 +31,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children, songs }) => {
             active: pathname === "/search",
             href: "/search"
         },
-    ], [])
+    ], [pathname])
 
     return (
     <div className={twMerge(

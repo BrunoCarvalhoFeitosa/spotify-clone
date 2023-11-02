@@ -4,6 +4,7 @@ import { BsPauseFill, BsPlayFill } from "react-icons/bs"
 import { AiFillStepBackward, AiFillStepForward } from "react-icons/ai"
 import { HiSpeakerXMark, HiSpeakerWave } from "react-icons/hi2"
 import usePlayer from "@/hooks/usePlayer"
+//@ts-ignore
 import useSound from "use-sound"
 import MediaItem from "@/components/MediaItem"
 import LikeButton from "@/components/LikeButton"
