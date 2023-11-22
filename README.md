@@ -44,8 +44,8 @@ https://github.com/BrunoCarvalhoFeitosa/spotify-clone/assets/46093815/aa01f86c-2
 
 * [Next.js](https://nextjs.org)
 * [Typescript](https://www.typescriptlang.org)
-* [Supabase](https://github.com/BrunoCarvalhoFeitosa/spotify-clone/assets/46093815/aa01f86c-2536-4d08-b1ce-5e4b4c3a0cf4)
-* [Stripe](https://stripe.com/b)
+* [Supabase](https://supabase.com)
+* [Stripe](https://stripe.com/br)
 * [TailwindCSS](https://tailwindcss.com)
 * [Vercel](https://vercel.com)
 
